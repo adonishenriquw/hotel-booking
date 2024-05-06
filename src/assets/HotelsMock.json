@@ -1,0 +1,277 @@
+[
+  {
+    "id": 1,
+    "name": "Sunset Oasis Resort",
+    "location": {
+      "country": "United States",
+      "state": "California",
+      "address": "123 Oceanview Drive, Santa Monica, CA 90401"
+    },
+    "rooms": [
+      {
+        "id": 101,
+        "name": "Standard Double Room",
+        "size": 300,
+        "notAvailable": ["2024-05-07", "2024-05-12", "2024-05-19"],
+        "price": "150.00",
+        "capacity": 2,
+        "photos": [
+          "https://example.com/photo101a.jpg",
+          "https://example.com/photo101b.jpg",
+          "https://example.com/photo101c.jpg"
+        ]
+      },
+      {
+        "id": 201,
+        "name": "Deluxe Suite",
+        "size": 500,
+        "notAvailable": ["2024-05-09", "2024-05-15", "2024-05-21"],
+        "price": "250.00",
+        "capacity": 2,
+        "photos": [
+          "https://example.com/photo201a.jpg",
+          "https://example.com/photo201b.jpg",
+          "https://example.com/photo201c.jpg"
+        ]
+      },
+      {
+        "id": 301,
+        "name": "Ocean View Villa",
+        "size": 700,
+        "notAvailable": ["2024-05-08", "2024-05-14", "2024-05-22"],
+        "price": "400.00",
+        "capacity": 2,
+        "photos": [
+          "https://example.com/photo301a.jpg",
+          "https://example.com/photo301b.jpg",
+          "https://example.com/photo301c.jpg"
+        ]
+      }
+    ],
+    "photos": [
+      "https://example.com/hotelphoto1.jpg",
+      "https://example.com/hotelphoto2.jpg",
+      "https://example.com/hotelphoto3.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Coastal Haven Hotel",
+    "location": {
+      "country": "Australia",
+      "state": "Queensland",
+      "address": "456 Beachfront Avenue, Gold Coast, QLD 4217"
+    },
+    "rooms": [
+      {
+        "id": 102,
+        "name": "Beachfront Suite",
+        "size": 400,
+        "notAvailable": ["2024-05-06", "2024-05-13", "2024-05-20"],
+        "price": "200.00",
+        "capacity": 2,
+        "photos": [
+          "https://example.com/photo102a.jpg",
+          "https://example.com/photo102b.jpg",
+          "https://example.com/photo102c.jpg"
+        ]
+      },
+      {
+        "id": 202,
+        "name": "Family Bungalow",
+        "size": 600,
+        "notAvailable": ["2024-05-07", "2024-05-14", "2024-05-21"],
+        "price": "300.00",
+        "capacity": 4,
+        "photos": [
+          "https://example.com/photo202a.jpg",
+          "https://example.com/photo202b.jpg",
+          "https://example.com/photo202c.jpg"
+        ]
+      },
+      {
+        "id": 302,
+        "name": "Oceanfront Suite",
+        "size": 700,
+        "notAvailable": ["2024-05-08", "2024-05-15", "2024-05-22"],
+        "price": "400.00",
+        "capacity": 2,
+        "photos": [
+          "https://example.com/photo302a.jpg",
+          "https://example.com/photo302b.jpg",
+          "https://example.com/photo302c.jpg"
+        ]
+      }
+    ],
+    "photos": [
+      "https://example.com/hotelphoto4.jpg",
+      "https://example.com/hotelphoto5.jpg",
+      "https://example.com/hotelphoto6.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mountain Retreat Lodge",
+    "location": {
+      "country": "Canada",
+      "state": "British Columbia",
+      "address": "789 Mountainview Road, Whistler, BC V0N 1B4"
+    },
+    "rooms": [
+      {
+        "id": 103,
+        "name": "Mountain View Room",
+        "size": 400,
+        "notAvailable": ["2024-05-05", "2024-05-11", "2024-05-18"],
+        "price": "200.00",
+        "capacity": 2,
+        "photos": [
+          "https://example.com/photo103a.jpg",
+          "https://example.com/photo103b.jpg",
+          "https://example.com/photo103c.jpg"
+        ]
+      },
+      {
+        "id": 203,
+        "name": "Lakeside Cabin",
+        "size": 600,
+        "notAvailable": ["2024-05-06", "2024-05-12", "2024-05-19"],
+        "price": "300.00",
+        "capacity": 4,
+        "photos": [
+          "https://example.com/photo203a.jpg",
+          "https://example.com/photo203b.jpg",
+          "https://example.com/photo203c.jpg"
+        ]
+      },
+      {
+        "id": 303,
+        "name": "Forest View Suite",
+        "size": 800,
+        "notAvailable": ["2024-05-07", "2024-05-13", "2024-05-20"],
+        "price": "400.00",
+        "capacity": 2,
+        "photos": [
+          "https://example.com/photo303a.jpg",
+          "https://example.com/photo303b.jpg",
+          "https://example.com/photo303c.jpg"
+        ]
+      }
+    ],
+    "photos": [
+      "https://example.com/hotelphoto7.jpg",
+      "https://example.com/hotelphoto8.jpg",
+      "https://example.com/hotelphoto9.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Urban Luxe Hotel",
+    "location": {
+      "country": "United States",
+      "state": "New York",
+      "address": "456 Urban Avenue, New York, NY 10001"
+    },
+    "rooms": [
+      {
+        "id": 104,
+        "name": "Urban King Room",
+        "size": 350,
+        "notAvailable": ["2024-05-08", "2024-05-14", "2024-05-22"],
+        "price": "180.00",
+        "capacity": 2,
+        "photos": [
+          "https://example.com/photo104a.jpg",
+          "https://example.com/photo104b.jpg",
+          "https://example.com/photo104c.jpg"
+        ]
+      },
+      {
+        "id": 204,
+        "name": "City View Suite",
+        "size": 550,
+        "notAvailable": ["2024-05-09", "2024-05-15", "2024-05-21"],
+        "price": "280.00",
+        "capacity": 2,
+        "photos": [
+          "https://example.com/photo204a.jpg",
+          "https://example.com/photo204b.jpg",
+          "https://example.com/photo204c.jpg"
+        ]
+      },
+      {
+        "id": 304,
+        "name": "Executive Suite",
+        "size": 700,
+        "notAvailable": ["2024-05-10", "2024-05-16", "2024-05-23"],
+        "price": "380.00",
+        "capacity": 2,
+        "photos": [
+          "https://example.com/photo304a.jpg",
+          "https://example.com/photo304b.jpg",
+          "https://example.com/photo304c.jpg"
+        ]
+      }
+    ],
+    "photos": [
+      "https://example.com/hotelphoto10.jpg",
+      "https://example.com/hotelphoto11.jpg",
+      "https://example.com/hotelphoto12.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Tranquil Meadows Resort",
+    "location": {
+      "country": "Canada",
+      "state": "Alberta",
+      "address": "789 Tranquil Road, Banff, AB T1L 1A1"
+    },
+    "rooms": [
+      {
+        "id": 105,
+        "name": "Family Villa",
+        "size": 800,
+        "notAvailable": ["2024-05-06", "2024-05-13", "2024-05-20"],
+        "price": "400.00",
+        "capacity": 4,
+        "photos": [
+          "https://example.com/photo105a.jpg",
+          "https://example.com/photo105b.jpg",
+          "https://example.com/photo105c.jpg"
+        ]
+      },
+      {
+        "id": 205,
+        "name": "Mountain Retreat",
+        "size": 700,
+        "notAvailable": ["2024-05-07", "2024-05-14", "2024-05-21"],
+        "price": "350.00",
+        "capacity": 3,
+        "photos": [
+          "https://example.com/photo205a.jpg",
+          "https://example.com/photo205b.jpg",
+          "https://example.com/photo205c.jpg"
+        ]
+      },
+      {
+        "id": 305,
+        "name": "Lakeview Suite",
+        "size": 600,
+        "notAvailable": ["2024-05-08", "2024-05-15", "2024-05-22"],
+        "price": "300.00",
+        "capacity": 2,
+        "photos": [
+          "https://example.com/photo305a.jpg",
+          "https://example.com/photo305b.jpg",
+          "https://example.com/photo305c.jpg"
+        ]
+      }
+    ],
+    "photos": [
+      "https://example.com/hotelphoto13.jpg",
+      "https://example.com/hotelphoto14.jpg",
+      "https://example.com/hotelphoto15.jpg"
+    ]
+  }
+]
